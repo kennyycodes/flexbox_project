@@ -1,0 +1,36 @@
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+}
+
+img {
+	width: 100px;
+}
+
+#sub_div1 {
+	/* margin: auto;
+	width: 33%;
+	height: 250px;
+	align-self: flex-start; */
+	
+	align-self: flex-start;
+	margin-left: 50px;
+}
+
+#sub_div2 {
+	align-self: center;
+}
+
+
+#sub_div3 {
+	align-self: flex-end;
+	margin-right: 50px;
+}
+
+
+#big_div {
+	display: flex;
+	border: 5px solid black;
+	align-items: center;
+	flex-direction: column;
+}
